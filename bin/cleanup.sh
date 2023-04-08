@@ -2,7 +2,7 @@
 
 ## Removes .vimrc file from home directory
 rm -f ~/.vimrc
-## Remove the line 'source ~/.dotfiles/etc/bashrc custom' from .bashrc file using the sed command
+## Removes the line 'source ~/.dotfiles/etc/bashrc custom' from .bashrc file
 sed -i 's/source \~\/\.dotfiles\/bashrc_custom//g' ~/.bashrc
-## Remove the .TRASH directory
+## Removes the .TRASH directory from home directory
 rm -rf ~/.TRASH
